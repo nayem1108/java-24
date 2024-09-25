@@ -9,6 +9,17 @@ public class TypeCasting {
         System.out.println("Welcome to type casting lesson");
 
 
+        /*
+         * learn implicit type casting
+         * also called automatic type casting
+         * done by Java Virtual Mechine(JVM)
+         * */
+
+        int myInt = 10;
+        System.out.println(myInt);
+
+        double myDouble = myInt;
+        System.out.println(myDouble);
 
     }
 }
