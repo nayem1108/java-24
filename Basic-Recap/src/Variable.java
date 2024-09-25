@@ -16,8 +16,7 @@ public class Variable {
         int num1;
 
 
-
-
+        System.out.println(num);
 
 
 
