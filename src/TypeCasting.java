@@ -21,5 +21,9 @@ public class TypeCasting {
         double myDouble = myInt;
         System.out.println(myDouble);
 
+
+        float myFloat = myInt;
+        System.out.println(myFloat);
+
     }
 }
