@@ -65,6 +65,14 @@ public class Main {
         System.out.println(c + ch);
 
 
+        /**
+         *
+         * 8 types of premetive data type
+         *
+         * byte, short, int, long, float, double, char, bool
+         *
+         * **/
+
 
     }
 }
