@@ -135,5 +135,26 @@ public class Main {
          * 
          */
 
+        /**
+         * 
+         * SortedSet(Interface)(1.2v)
+         * Child interface of Set
+         * 
+         * Usages
+         * No duplicated and insert according to some sorting order
+         * 
+         */
+
+        /**
+         * 
+         * NavigableSet(Interface)(1.6v)
+         * Child interface of SortedSet
+         * 
+         * Usages
+         * For navigation purperse
+         * 
+         * Implementation Class TreeSet
+         */
+
     }
 }
