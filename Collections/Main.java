@@ -125,5 +125,15 @@ public class Main {
          * 
          */
 
+        /*****
+         * 
+         * Differencr between List Vs Set
+         * 
+         * List Allowes duplicate Vs Set do not allows duplicate
+         * Insertion order preserved Vs Insertion order not preserved
+         * 
+         * 
+         */
+
     }
 }
