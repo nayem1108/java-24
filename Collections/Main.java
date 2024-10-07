@@ -176,7 +176,7 @@ public class Main {
          * 
          */
 
-        // Map
+        // Map(1.2)
 
         /**
          * Map is a different Interface not a child of Collection, these are totally
@@ -188,7 +188,11 @@ public class Main {
          * If we want to represent a group of object as key->value pair
          * Key can't be duplicate but value can
          * 
+         * Child interface sortedMap(NavigableMap(1.6) impl class TreeMap(1.2))
          * 
+         * Inplementaition classes:
+         * HashMap(LinkedHashMap(1.4))(1.2), WeakHashMap(1.2), IdentityHashMap(1.4),
+         * Hashtable((properties)comes from dictionary)(1.0)
          */
     }
 }
