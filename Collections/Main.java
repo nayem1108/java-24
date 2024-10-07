@@ -109,5 +109,21 @@ public class Main {
          * 
          */
 
+        /****
+         * 
+         * Set Interface
+         * 
+         * Usages:
+         * want to represent group of object where duplicate entities are not allowed
+         * and when Insertion order not preserved
+         * 
+         * Came on version 1.xx
+         * 
+         * Set is a child interface of Collection interface
+         * Implementation Classes: HashSet(LinkedHashSet(1.4v))(1.2)
+         * 
+         * 
+         */
+
     }
 }
