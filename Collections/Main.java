@@ -85,11 +85,26 @@ public class Main {
 
         /***
          * 
-         * Collection
+         * Collection (1.2 version )
          * |
          * ..................................
          * | | |
-         * List Set Queue
+         * List(1.2) Set Queue
+         * 
+         * 
+         */
+
+        /****
+         * 
+         * List Interface
+         * 
+         * Usages:
+         * want to represent group of object where duplicate entities allowed and when
+         * insertion order is preserved
+         * 
+         * List is a child interface of Collection interface
+         * Implementation Classes: ArrayList(1.2), LinkedList(1.2), Vector(Stack under
+         * Stack)(v-1.0 came)
          * 
          * 
          */
