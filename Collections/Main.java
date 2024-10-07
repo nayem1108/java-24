@@ -179,9 +179,16 @@ public class Main {
         // Map
 
         /**
-         * 
          * Map is a different Interface not a child of Collection, these are totally
          * differend
+         * Stores Key Value pair
+         * where key is a object and value also a object
+         * 
+         * Usages
+         * If we want to represent a group of object as key->value pair
+         * Key can't be duplicate but value can
+         * 
+         * 
          */
     }
 }
