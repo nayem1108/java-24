@@ -153,8 +153,35 @@ public class Main {
          * Usages
          * For navigation purperse
          * 
-         * Implementation Class TreeSet
+         * Implementation Class TreeSet(1.2)
          */
 
+        /**
+         * 
+         * Queue Interface(1.5v)
+         * 
+         * Usages:
+         * Child interface of Collection
+         * In order of data prior to processing FIFO (Sent 1000 email)
+         * 
+         * Implementation Classes
+         * Priority Queue, Blucking Queue(LinkedBluckingQue, PriorityBluckingQueue)
+         * 
+         * 
+         * 
+         */
+
+        /**
+         * 
+         * 
+         */
+
+        // Map
+
+        /**
+         * 
+         * Map is a different Interface not a child of Collection, these are totally
+         * differend
+         */
     }
 }
