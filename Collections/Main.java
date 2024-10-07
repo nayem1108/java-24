@@ -41,15 +41,32 @@ public class Main {
          * 
          * hashCode() //Returns the hash code value for this collection.
          * 
-         * isEmpty()
+         * isEmpty() //Returns true if this collection contains no elements.
+         * 
          * iterator()
          * parallelStream()
-         * remove(Object)
-         * removeAll(Collection of Object)
-         * removeIf(Predicate(condition goes here) filter)
-         * retainAll(Collection of Object)
+         * remove(Object) //Removes a single instance of the specified element from this
+         * collection, if it is present (optional operation).
+         * 
+         * removeAll(Collection of Object) //Removes all of this collection’s elements
+         * that are also contained in the specified collection (optional operation).
+         * 
+         * removeIf(Predicate(condition goes here) filter) //Removes all the elements of
+         * this collection that satisfy the given predicate.
+         * 
+         * retainAll(Collection of Object) //Retains only the elements in this
+         * collection that are contained in the specified collection (optional
+         * operation).
+         * 
          * size() //return size of the collection
          * spliterator()
+         * 
+         * toArray() //Returns an array containing all the elements in this collection.
+         * 
+         * stream() //Returns a sequential Stream with this collection as its source.
+         * 
+         * 
+         * forEach​(Consumer<? super T> action) //java.lang.iterable
          */
     }
 }
