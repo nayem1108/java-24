@@ -67,6 +67,20 @@ public class Main {
          * 
          * 
          * forEach​(Consumer<? super T> action) //java.lang.iterable
+         * 
+         */
+
+        /***
+         * 
+         * Difference between collection vs collections
+         * 
+         * Collection is a Interface and Collections is a class(Utility class)
+         * 
+         * Collection is a Interface and Collections utility class present
+         * java.util.package
+         * 
+         * 
+         * 
          */
     }
 }
