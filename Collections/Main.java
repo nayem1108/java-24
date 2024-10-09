@@ -238,5 +238,9 @@ public class Main {
         list.removeAll(newList);
         System.out.println(list);
 
+        // list contains
+        System.out.println(list.contains(30));
+        System.out.println(list.containsAll(newList));
+
     }
 }
