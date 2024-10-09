@@ -242,5 +242,7 @@ public class Main {
         System.out.println(list.contains(30));
         System.out.println(list.containsAll(newList));
 
+        list.clear();
+        System.out.println(list);
     }
 }
