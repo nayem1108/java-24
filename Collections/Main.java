@@ -1,5 +1,8 @@
 package Collections;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Let\'s recap collection framework");
@@ -194,5 +197,27 @@ public class Main {
          * HashMap(LinkedHashMap(1.4))(1.2), WeakHashMap(1.2), IdentityHashMap(1.4),
          * Hashtable((properties)comes from dictionary)(1.0)
          */
+
+        /**
+         * 
+         * ArrayList
+         * 
+         * A resizeable and growable array
+         * Duplicate are allowed
+         * insertion order
+         * Heterogeneous Object
+         * 
+         */
+        // Example of ArrayList
+
+        // List<Type> a = new List<>();
+
+        List<Integer> list = new ArrayList<>();
+        list.add(10);
+        list.add(30);
+        list.add(40);
+        list.add(30);
+        list.add(10);
+        System.out.println(list);
     }
 }
