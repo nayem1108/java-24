@@ -1,6 +1,7 @@
 package Collections;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Main {
@@ -219,5 +220,17 @@ public class Main {
         list.add(30);
         list.add(10);
         System.out.println(list);
+
+        List<Integer> newList = new ArrayList<>();
+
+        newList.add(20);
+        newList.add(50);
+
+        list.addAll(newList);
+
+        list.addAll(Arrays.asList(90, 79, 87));
+
+        System.out.println(list);
+
     }
 }
