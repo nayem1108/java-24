@@ -232,5 +232,11 @@ public class Main {
 
         System.out.println(list);
 
+        // list remove() and removeAll()
+        list.remove(2);
+        System.out.println(list);
+        list.removeAll(newList);
+        System.out.println(list);
+
     }
 }
