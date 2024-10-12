@@ -1,13 +1,13 @@
 package Generics;
 
-public class Box {
-    private Object value;
+public class Box<N> {
+    private N value;
 
-    public Object getValue() {
+    public N getValue() {
         return value;
     }
 
-    public void setValue(Object value) {
+    public void setValue(N value) {
         this.value = value;
     }
 
