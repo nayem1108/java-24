@@ -44,10 +44,16 @@ public class Main {
 
         // generics Interface
         // Normal class implementation of genericinterface
-        ContainerImpl cImpl = new ContainerImpl();
+        // ContainerImpl cImpl = new ContainerImpl();
 
-        cImpl.set(10);
-        System.out.println(cImpl.get());
+        // cImpl.set(10);
+        // System.out.println(cImpl.get());
+
+        // Generic class implements generics Interface
+        GenericContainerImpl<Integer> gContainerImpl = new GenericContainerImpl<>();
+
+        gContainerImpl.set(100);
+        System.out.println(gContainerImpl.get());
 
     }
 }
