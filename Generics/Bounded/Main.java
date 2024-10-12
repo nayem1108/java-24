@@ -1,6 +1,8 @@
 package Generics.Bounded;
 
+import Generics.Bounded.Impl.CommonCondImpl;
 import Generics.Bounded.Impl.CommonImpl;
+import Generics.Bounded.Impl.MyType;
 
 public class Main {
     public static void main(String[] args) {
@@ -21,8 +23,13 @@ public class Main {
          * 
          */
 
-        CommonImpl<Integer> commonImplInteger = new CommonImpl<>();
-        CommonImpl<Double> commonImplDouble = new CommonImpl<>();
-        CommonImpl<Float> commonImplFloat = new CommonImpl<>();
+        // CommonImpl<Integer> commonImplInteger = new CommonImpl<>();
+        // CommonImpl<Double> commonImplDouble = new CommonImpl<>();
+        // CommonImpl<Long> commonImplLomg = new CommonImpl<>();
+        // CommonImpl<Float> commonImplFloat = new CommonImpl<>();
+        // CommonImpl<Byte> commonImplByte = new CommonImpl<>();
+
+        // Now There is no error
+        // CommonImpl<MyType> myType = new CommonImpl<>();
     }
 }
