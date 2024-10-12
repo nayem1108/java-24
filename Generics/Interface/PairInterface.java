@@ -15,4 +15,5 @@ public interface PairInterface<K, V> {
     // Get the value of given key
     V getValue(K key);
 
+    void get();
 }

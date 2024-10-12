@@ -35,4 +35,9 @@ public class PairImpl implements PairInterface<String, Integer> {
         return this.value;
     }
 
+    @Override
+    public void get() {
+        System.out.println("[ Key: " + this.key + ", Value: " + this.value + " ]");
+    }
+
 }

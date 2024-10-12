@@ -12,7 +12,7 @@ public class ContainerImpl implements Container<Integer> {
     }
 
     @Override
-    public Integer get(Integer item) {
+    public Integer get() {
         return this.item;
     }
 

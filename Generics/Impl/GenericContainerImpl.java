@@ -12,7 +12,7 @@ public class GenericContainerImpl<T> implements Container<T> {
     }
 
     @Override
-    public T get(T item) {
+    public T get() {
         return this.item;
     }
 

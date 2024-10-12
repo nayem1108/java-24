@@ -1,7 +1,7 @@
 package Generics.Interface;
 
 public interface Container<T> {
-    void add(T item);
+    void set(T item);
 
-    void remove(T item);
+    T get();
 }

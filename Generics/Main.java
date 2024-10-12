@@ -2,6 +2,8 @@ package Generics;
 
 import Generics.Impl.ContainerImpl;
 import Generics.Impl.GenericContainerImpl;
+import Generics.Impl.GenericPairImpl;
+import Generics.Impl.PairImpl;
 
 public class Main {
     public static void main(String[] args) {
@@ -50,10 +52,29 @@ public class Main {
         // System.out.println(cImpl.get());
 
         // Generic class implements generics Interface
-        GenericContainerImpl<Integer> gContainerImpl = new GenericContainerImpl<>();
+        // GenericContainerImpl<Integer> gContainerImpl = new GenericContainerImpl<>();
 
-        gContainerImpl.set(100);
-        System.out.println(gContainerImpl.get());
+        // gContainerImpl.set(100);
+        // System.out.println(gContainerImpl.get());
+
+        // Pair Class implements generics
+        // PairImpl pairImpl = new PairImpl();
+        // pairImpl.set("Age", 10);
+        // System.out.println(pairImpl.getKey());
+        // pairImpl.get();
+        // System.out.println(pairImpl.getValue());
+
+        // Generic Pair Class Implements Generic Interface
+        GenericPairImpl<String, String> genericPairImpl = new GenericPairImpl<>();
+
+        genericPairImpl.get();
+
+        genericPairImpl.set("Name", "Nayem");
+        genericPairImpl.get();
+        genericPairImpl.set("Age", "30");
+        genericPairImpl.get();
+        genericPairImpl.set("Title", "Java Developer");
+        genericPairImpl.get();
 
     }
 }
