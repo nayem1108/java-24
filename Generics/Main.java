@@ -65,16 +65,19 @@ public class Main {
         // System.out.println(pairImpl.getValue());
 
         // Generic Pair Class Implements Generic Interface
-        GenericPairImpl<String, String> genericPairImpl = new GenericPairImpl<>();
+        // GenericPairImpl<String, String> genericPairImpl = new GenericPairImpl<>();
 
-        genericPairImpl.get();
+        // genericPairImpl.get();
 
-        genericPairImpl.set("Name", "Nayem");
-        genericPairImpl.get();
-        genericPairImpl.set("Age", "30");
-        genericPairImpl.get();
-        genericPairImpl.set("Title", "Java Developer");
-        genericPairImpl.get();
+        // genericPairImpl.set("Name", "Nayem");
+        // genericPairImpl.get();
+        // genericPairImpl.set("Age", "30");
+        // genericPairImpl.get();
+        // genericPairImpl.set("Title", "Java Developer");
+        // genericPairImpl.get();
+
+        // Bounded Type parameters
+        // here we can set boundary/or limit to a generics so that it only use that type
 
     }
 }
