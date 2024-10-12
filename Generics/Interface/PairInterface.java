@@ -1,4 +1,4 @@
-package Generics.Impl;
+package Generics.Interface;
 
 public interface PairInterface<K, V> {
     void set(K key, V value);
