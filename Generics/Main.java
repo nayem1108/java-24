@@ -1,5 +1,8 @@
 package Generics;
 
+import Generics.Impl.ContainerImpl;
+import Generics.Impl.GenericContainerImpl;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Learn Generics");
@@ -34,10 +37,17 @@ public class Main {
         // boxstr.setValue("10");
         // System.out.println(boxstr.getValue());
 
-        Pair<String, String> pair = new Pair<>("Name", "Nayem");
+        // Pair<String, String> pair = new Pair<>("Name", "Nayem");
 
-        System.out.println(pair.getKey());
-        System.out.println(pair.getValue());
+        // System.out.println(pair.getKey());
+        // System.out.println(pair.getValue());
+
+        // generics Interface
+        // Normal class implementation of genericinterface
+        ContainerImpl cImpl = new ContainerImpl();
+
+        cImpl.set(10);
+        System.out.println(cImpl.get());
 
     }
 }
