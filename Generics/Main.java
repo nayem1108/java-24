@@ -18,19 +18,26 @@ public class Main {
         // String str = box.getValue();
 
         // Type cast
+        // we need to manual type casting generics help to solve this issue
         // String str1 = (String) box.getValue();
         // // System.out.println(str1);
         // System.out.println(str);
 
-        // we need to manual type casting generics help to solve this issue
-        Box<Integer> box1 = new Box<>();
+        // Generics Use
+        // Box<Integer> box1 = new Box<>();
 
-        box1.setValue(10);
-        System.out.println(box1.getValue());
+        // box1.setValue(10);
+        // System.out.println(box1.getValue());
 
-        Box<String> boxstr = new Box<>();
+        // Box<String> boxstr = new Box<>();
 
-        boxstr.setValue("10");
-        System.out.println(boxstr.getValue());
+        // boxstr.setValue("10");
+        // System.out.println(boxstr.getValue());
+
+        Pair<String, String> pair = new Pair<>("Name", "Nayem");
+
+        System.out.println(pair.getKey());
+        System.out.println(pair.getValue());
+
     }
 }
