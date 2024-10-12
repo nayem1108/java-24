@@ -1,4 +1,4 @@
-package Generics.Bounded.Impl;
+package Generics.Bounded.Interface;
 
 public interface Printable {
     void print();
