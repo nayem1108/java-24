@@ -117,3 +117,6 @@ Traversing	            O(m * n)
 Space Complexity O(m*n)
 
 
+
+# 2d array linear search, binary search, array rotation, boundary
+
