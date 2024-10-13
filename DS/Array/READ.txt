@@ -1,0 +1,118 @@
+Array 
+
+Each element of an array take same data type and carries the same size that is 4byte in java.
+
+Elements in the array are stored at a contiguous memory locations from which the first element is stored at the smallest memory locations.
+
+Elements of the array can be randomly accessed since we can calculate the address of each element of the array with the given base address and the size of the data element.
+
+Representation of an array:
+
+One Dimentation array
+In Java:
+
+Int type arrya
+int [] arrayName = new int[4];
+int [] arrayName = {val, val, val, val};
+
+Byte type arrya
+byte [] arrayName = new byte[4];
+byte [] arrayName = {val, val, val, val};
+
+Long type arrya
+long [] arrayName = new long[4];
+long [] arrayName = {val, val, val, val};
+
+Char type array
+char [] arrayName = new char[3];
+char [] arrayName = {'c', 'C', 'D'};
+
+Double type array
+double[] arrayName = new double[4];
+double [] arrayName = {10.3, 34.6, 19.3, 32.4};
+
+Float type array
+float[] arrayName = new float[4];
+float [] arrayName = {10.3, 34.6, 19.3, 32.4};
+
+String type array
+String[] arrayName = new String[3];
+String[] arrayName = {"Nayem", "Uddin", "Fahim"};
+
+
+
+
+Two Dimentional array
+
+Int type arrya
+int [][] arrayName = new int[4][3];
+int [][] arrayName = {{val, val},{ val, val},...};
+
+Byte type arrya
+byte [][] arrayName = new byte[4][3];
+byte [][] arrayName = {{val, val}, {val, val}, ...};
+
+Long type arrya
+long [][] arrayName = new long[4][4];
+long [][] arrayName = {{val, val},{ val, val}, ...};
+
+Char type array
+char [][] arrayName = new char[3][3];
+char [][] arrayName = {{'c', 'C'}, ...};
+
+Double type array
+double[][] arrayName = new double[4][4];
+double [][] arrayName = {{10.3, 34.6}, {19.3, 32.4}, ...};
+
+Float type array
+float[][] arrayName = new float[4][3];
+float [][] arrayName = {{0.3, 34.6}, {19.3, 32.4}, ...};
+
+String type array
+String[][] arrayName = new String[3][4];
+String[][] arrayName = {{"Nayem", "Uddin",} {"Fahim", "Ahmed"}, ...};
+
+
+
+Operation in an array:
+Search
+Sort
+insert
+update
+remove/delete
+
+
+Time complexity: O(n)
+Search: O(n) -> unsorted array Linear Search
+Search: O(logN) -> sorted array Binary Search
+
+Insert, Update, Delete: O(n)
+
+Insert Last: O(1) -> if we know the size
+Insert any other position take O(n);
+
+Delete Last: O(1) 
+Delete any position: O(n)
+
+Update by index: O(1) => for given index;
+Update by value: O(n) => Iterate the array if the value match then update it;
+
+
+Space Complexity:
+O(n)
+
+
+
+2D Array Time Complexity
+Operation	            Time Complexity
+Accessing an element	O(1)
+Searching (unsorted)	O(m * n)
+Searching (sorted rows)	O(m * log(n))
+Inserting	            O(m * n)
+Updating	            O(1)
+Deleting	            O(m * n)
+Traversing	            O(m * n)
+
+
+Space Complexity O(m*n)
+
