@@ -1,4 +1,4 @@
-package DS.Array;
+package DS.Array.TwoDArr;
 
 public class Array2D {
     public static void main(String[] args) {

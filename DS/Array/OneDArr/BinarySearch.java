@@ -1,4 +1,4 @@
-package DS.Array;
+package DS.Array.OneDArr;
 
 import java.util.Scanner;
 
