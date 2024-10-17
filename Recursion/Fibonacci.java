@@ -17,6 +17,8 @@ public class Fibonacci {
     }
 
     /*
+     * VVVI**
+     * 
      * types of variable in recursion
      * 
      * 1. Argument fin(int n) n is argument variable
@@ -28,5 +30,16 @@ public class Fibonacci {
      * {
      * some variable in here may be used
      * }
+     */
+
+    /***
+     * 
+     * 
+     * 
+     * Types of recurrence relation in recursion
+     * 
+     * 1. Linear recurrence relation -> e.g like fibonacci number
+     * 
+     * 2. Divide & Conquer recurrence relation -> e.g. like binary search
      */
 }
