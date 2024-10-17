@@ -38,8 +38,30 @@ public class Fibonacci {
      * 
      * Types of recurrence relation in recursion
      * 
-     * 1. Linear recurrence relation -> e.g like fibonacci number
+     * 1. Linear recurrence relation -> e.g *like fibonacci number
      * 
-     * 2. Divide & Conquer recurrence relation -> e.g. like binary search
+     * 2. Divide & Conquer recurrence *relation -> e.g. like binary search
+     */
+
+    /**
+     * Efficient
+     * 
+     * Divide & conquer is efficient than linear recurrence
+     * 
+     * As devide and conquer divide the problem like divide the problem in half in
+     * binary search how we do things
+     * 
+     * 
+     * Linear recurrence relation solve problem like add some or substract some not
+     * like divide the problem and solve the problem
+     * 
+     */
+
+    /*
+     * 50 is a small number in computer
+     * 
+     * but if we want to get fibo of 50 then we will understand why we need dynamic
+     * programming
+     * 
      */
 }
