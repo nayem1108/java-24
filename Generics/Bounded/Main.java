@@ -1,6 +1,5 @@
 package Generics.Bounded;
 
-import Generics.Bounded.Impl.CommonCondImpl;
 import Generics.Bounded.Impl.CommonImpl;
 import Generics.Bounded.Impl.MyType;
 
