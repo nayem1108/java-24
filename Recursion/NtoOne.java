@@ -6,16 +6,21 @@ public class NtoOne {
          * Print n to 1 using recursion
          */
         int n = 10;
-        print(n);
+        fun(n);
 
     }
 
-    static void print(int n) {
+    static void fun(int n) {
 
         if (n < 1) {
             return;
         }
+
+        // n to 1
+        // System.out.println(n);
+        fun(n - 1);
+
+        // 1 to n
         System.out.println(n);
-        print(n - 1);
     }
 }
